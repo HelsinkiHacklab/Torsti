@@ -1,10 +1,11 @@
 * Downloading the latest pypy *
+Check the suitable latest nightly build from http://buildbot.pypy.org/nightly/trunk/
 
 cd /opt
 sudo wget http://buildbot.pypy.org/nightly/trunk/pypy-c-jit-78985-linux.tar.bz2
 or
 sudo wget http://buildbot.pypy.org/nightly/trunk/pypy-c-jit-78985-linux64.tar.bz2
-tar -xf pypy*
+sudo tar -xf pypy*
 sudo chmod o+rx pypy*
 
 Now you can call pypy with
