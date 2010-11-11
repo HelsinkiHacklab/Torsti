@@ -24,3 +24,18 @@ mkvirtualenv -p /opt/pypy-c-jit-*/bin/pypy pypy
 Now you can call "workon pypy" and every call to python will call pypy. Calling "deactivate"
 will get you out of the virtualenv after which calling python will call the regular system wide
 installation of python. Now you can easily switch between regular python and pypy.
+
+Since pypy doesn't have the _tkinter c module, skeinforge will fail while importing it,
+even though it isn't needed (a bug). You can comment out 
+"from fabmetheus_utilities.hidden_scrollbar import HiddenScrollbar" in the file
+skeinforge_application/skeinforge_utilities/skeinforge_profile.py, or add a try except clause
+like this:
+"""
+try:
+    from fabmetheus_utilities.hidden_scrollbar import HiddenScrollbar
+except ImportError:
+    pass
+"""
+
+Also, you have to issue "python skeinforge.py" to actually use the chosen binary in the virtualenv,
+that is, pypy in our case (skeinforge.py has #!/usr/bin/python).
