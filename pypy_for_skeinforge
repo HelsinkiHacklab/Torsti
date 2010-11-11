@@ -1,7 +1,7 @@
 * Downloading the latest pypy *
 Check the suitable latest nightly build from http://buildbot.pypy.org/nightly/trunk/
 
-cd /opt
+cd /opt #Or wherever...
 sudo wget http://buildbot.pypy.org/nightly/trunk/pypy-c-jit-78985-linux.tar.bz2
 or
 sudo wget http://buildbot.pypy.org/nightly/trunk/pypy-c-jit-78985-linux64.tar.bz2
@@ -13,13 +13,13 @@ Now you can call pypy with
 
 * Installing *
 For installing pypy seamlessly alongside other python versions, you can use virtualenv:
-cd
+cd #Back to home
 sudo easy_install pip #pip is better, but you can use easy_install for everything
 sudo pip install virtualenv #Make sure you have the latest version of this
 sudo pip install virtualenvwrapper #If not, "sudo pip install --upgrade virtualenv" will do
 mkdir .virtualenvs
 source /usr/local/bin/virtualenvwrapper.sh #Put this in .bashrc for future logins
-mkvirtualenv -p /opt/pypy-c-jit-78985-linux/bin/pypy pypy
+mkvirtualenv -p /opt/pypy-c-jit-*/bin/pypy pypy
 
 Now you can call "workon pypy" and every call to python will call pypy. Calling "deactivate"
 will get you out of the virtualenv after which calling python will call the regular system wide
