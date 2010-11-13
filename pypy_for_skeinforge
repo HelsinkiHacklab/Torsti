@@ -7,12 +7,14 @@ or
 sudo wget http://buildbot.pypy.org/nightly/trunk/pypy-c-jit-78985-linux64.tar.bz2
 sudo tar -xf pypy*
 sudo chmod -R o+rx pypy*
+sudo ln -s /opt/pypy*/bin/pypy /usr/local/bin/
 
 Now you can call pypy with
-/opt/pypy*/bin/pypy
+/usr/local/bin/pypy or just pypy
 
 * Installing *
 For installing pypy seamlessly alongside other python versions, you can use virtualenv:
+(you can install many versions of pypy this way, for testing etc.)
 cd #Back to home
 sudo easy_install pip #pip is better, but you can use easy_install for everything
 sudo pip install virtualenv #Make sure you have the latest version of this
