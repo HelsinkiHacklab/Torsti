@@ -27,8 +27,11 @@ Now you can call "workon pypy" and every call to python will call pypy. Calling 
 will get you out of the virtualenv after which calling python will call the regular system wide
 installation of python. Now you can easily switch between regular python and pypy.
 
+* Making Skeinforge cooperate *
+
 Since pypy doesn't have the _tkinter c module, skeinforge will fail while importing it,
-even though it isn't needed (a bug). You can comment out 
+even though it isn't needed (a bug) for commandline usage. You can use the regular python for
+configuring skeinforge. You can comment out 
 "from fabmetheus_utilities.hidden_scrollbar import HiddenScrollbar" in the file
 skeinforge_application/skeinforge_utilities/skeinforge_profile.py, or add a try except clause
 like this:
