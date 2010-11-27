@@ -260,9 +260,9 @@
 // PID gains.  These are about right for a brass extruder about 8 mm 
 // in diameter and 30 mm long heated by a 6 ohm coil with a 12v supply.
 
-#define TEMP_PID_PGAIN 2
-#define TEMP_PID_IGAIN 0.07
-#define TEMP_PID_DGAIN 1
+#define TEMP_PID_PGAIN 5 #2
+#define TEMP_PID_IGAIN 0.1 #0.07
+#define TEMP_PID_DGAIN 100 #1
 
 //our command string length
 
