@@ -5,6 +5,10 @@
 
 // This is the extruder thermistor...
 
+
+
+
+/*
 // RS thermistor 528-8592; EPCOS NTC G540 
 // ./createTemperatureLookup.py --r0=100000 --t0=25 --r1=0 --r2=4700 --beta=4036 --max-adc=1023
 // r0: 100000
@@ -36,6 +40,8 @@ short temptable[NUMTEMPS][2] = {
    {955, 34},
    {1008, 2}
 };
+
+*\
 
 // ... And this is the heated bed thermistor (if any)
 
@@ -79,8 +85,8 @@ short bedtemptable[NUMTEMPS][2] = {
 #endif
 
  
-/*
- * Other thermistors...
+
+// * Other thermistors...
 // Thermistor lookup table for RepRap Temperature Sensor Boards 
 // See this page:  
 // http://dev.www.reprap.org/bin/view/Main/Thermistor
@@ -121,7 +127,7 @@ short temptable[NUMTEMPS][2] = {
    {1008, 3}
 };
 
-
+/*
  
 // RS thermistor 528-8592; EPCOS NTC G540 
 // ./createTemperatureLookup.py --r0=100000 --t0=25 --r1=0 --r2=4700 --beta=4036 --max-adc=1023
