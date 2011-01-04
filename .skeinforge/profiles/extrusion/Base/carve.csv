@@ -1,7 +1,7 @@
 Format is tab separated carve settings.
 Name                          	Value
 WindowPosition	700+0
-Open File for Carve	
+Open File for Carve	/home/hacklab/RepRap/Link_For_Ellipse_Gears.STL
 Add Layer Template to SVG	True
 Bridge Thickness Multiplier (ratio):	1.0
 Extra Decimal Places (float):	2.0
@@ -12,5 +12,5 @@ Layers From (index):	0
 Layers To (index):	912345678
 Correct Mesh	True
 Unproven Mesh	False
-Perimeter Width over Thickness (ratio):	1.8
+Perimeter Width over Thickness (ratio):	1.5
 SVG Viewer:	webbrowser

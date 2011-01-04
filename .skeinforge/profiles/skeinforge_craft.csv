@@ -1,7 +1,7 @@
 Format is tab separated skeinforge craft settings.
 Name                          	Value
 WindowPosition	0+0
-Open File for Craft	/home/hacklab/RepRap/ellipsegearlink.stl
+Open File for Craft	/home/hacklab/RepRap/DriveGear.stl
 bottom	False
 carve	False
 chamber	False

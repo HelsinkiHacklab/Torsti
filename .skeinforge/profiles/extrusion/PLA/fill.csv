@@ -15,14 +15,14 @@ Grid Junction Separation over Octogon Radius At End (ratio):	0.0
 Grid Junction Separation over Octogon Radius At Middle (ratio):	0.0
 Infill Begin Rotation (degrees):	45.0
 Infill Begin Rotation Repeat (layers):	1
-Infill Interior Density over Exterior Density (ratio):	0.8
+Infill Interior Density over Exterior Density (ratio):	1.0
 Infill Odd Layer Extra Rotation (degrees):	90.0
 Grid Circular	False
 Grid Hexagonal	False
 Grid Rectangular	False
 Line	True
-Infill Perimeter Overlap (ratio):	0.22
-Infill Solidity (ratio):	0.7
+Infill Perimeter Overlap (ratio):	0.3
+Infill Solidity (ratio):	1.0
 Infill Width over Thickness (ratio):	1.5
 Solid Surface Thickness (layers):	3
 Infill > Loops > Perimeter	False
