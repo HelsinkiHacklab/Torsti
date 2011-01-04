@@ -1,0 +1,151 @@
+10
+
+dir
+48
+http://prusajr@svn2.assembla.com/svn/prusadjs3Dstuff/SkeinforgeSettings/profiles/extrusion
+http://prusajr@svn2.assembla.com/svn/prusadjs3Dstuff
+
+
+
+2010-05-27T17:34:50.226107Z
+48
+odpojen
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1796f861-7046-4528-b2b6-a198b20f974c
+
+raftless kapton 0.5
+dir
+
+
+
+delete
+
+ShaperABS_0.5mm
+dir
+
+
+
+delete
+
+ODPAD
+dir
+
+
+
+add
+
+RapMan ABS 0.5 
+dir
+
+faster 35
+dir
+
+
+
+delete
+
+ShaperABS_0.375mm
+dir
+
+
+
+delete
+
+RapMan ABS 0.55 Detail
+dir
+
+raftless kapton
+dir
+
+
+
+delete
+
+faster 0.5Z
+dir
+
+
+
+delete
+
+ShaperABS_0.5mm_extra_shells
+dir
+
+
+
+delete
+
+raftless ABS 0.35Z small
+dir
+
+
+
+delete
+
+ABS
+dir
+
+
+
+delete
+
+ShaperABS_0.45mm
+dir
+
+RapMan ABS 0.3 Detail
+dir
+
+raft kapton
+dir
+
+
+
+delete
+
+default ABS 0.25Z
+dir
+
+
+
+delete
+
+raftless ABS 0.35Z
+dir
+
+
+
+delete
+
+default ABS 0.35Z
+dir
+
+
+
+delete
+
+raftless kapton new
+dir
+
+
+
+delete
+
+RapMan ABS 0.5 Detail
+dir
+
+RapMan ABS 0.35
+dir
+

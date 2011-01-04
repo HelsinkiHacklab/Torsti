@@ -1,0 +1,12 @@
+Format is tab separated preface settings.
+Name                          	Value
+WindowPosition	600+0
+Open File for Preface	
+Meta:	
+Name of End File:	endRapMan04.gcode
+Name of Start File:	startRapMan04.gcode
+Set Positioning to Absolute	True
+Set Units to Millimeters	True
+Start at Home	True
+Turn Extruder Off at Shut Down	True
+Turn Extruder Off at Start Up	True
