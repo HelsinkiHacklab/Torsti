@@ -1,7 +1,7 @@
 Format is tab separated skeinforge craft settings.
 Name                          	Value
 WindowPosition	0+0
-Open File for Craft	/home/hacklab/RepRap/DriveGear.stl
+Open File for Craft	/home/hacklab/RepRap/PrusaMendel/stl/frame-vertex-without-foot.stl
 bottom	False
 carve	False
 chamber	False
@@ -11,11 +11,11 @@ clip	False
 coil	False
 comb	False
 cool	False
-dimension	False
+dimension	True
 drill	False
 export	False
 feed	False
-fill	True
+fill	False
 fillet	False
 flow	False
 home	False

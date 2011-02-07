@@ -2,7 +2,7 @@ Format is tab separated skeiniso settings.
 Name                          	Value
 WindowPosition	0+0
 Open File for Skeiniso	
-Activate Skeiniso	True
+Activate Skeiniso	False
 Frame List
 Animation Line Quickening (ratio):	1.0
 Animation Slide Show Rate (layers/second):	2.0
@@ -27,7 +27,7 @@ Screen Horizontal Inset (pixels):	100
 Screen Vertical Inset (pixels):	168
 Show Gcode	True
 Viewpoint Latitude (degrees):	0.1
-Viewpoint Longitude (degrees):	343.0
+Viewpoint Longitude (degrees):	26.4
 Width of Axis Negative Side (pixels):	2
 Width of Axis Positive Side (pixels):	6
 Width of Fill Bottom Thread (pixels):	2

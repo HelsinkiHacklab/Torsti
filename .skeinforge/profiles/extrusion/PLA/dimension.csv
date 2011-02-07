@@ -5,6 +5,6 @@ Open File for Dimension
 Activate Dimension	True
 Absolute Extrusion Distance	True
 Relative Extrusion Distance	False
-Extruder Retraction Speed (mm/s):	100.0
-Retraction Distance (millimeters):	0.0
-Restart Extra Distance (millimeters):	0.0
+Extruder Retraction Speed (mm/s):	70.0
+Retraction Distance (millimeters):	1.5
+Restart Extra Distance (millimeters):	0.1
